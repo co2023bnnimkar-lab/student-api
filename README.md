@@ -1,6 +1,6 @@
-# Student API
+# Student Net
 
-A Student Information Management API built with Node.js, Express, and MongoDB Atlas.
+Student Net is a Student Information Management API built with Node.js, Express, and MongoDB Atlas.
 
 ## Run with Docker
 
@@ -25,7 +25,7 @@ Open `.env` and replace the `MONGODB_URI` placeholder with your MongoDB Atlas co
 docker compose up --build -d
 ```
 
-The API will be available at:
+The Student Net API will be available at:
 
 - Health/root endpoint: http://localhost:5000/
 - Student endpoints: http://localhost:5000/api/students
@@ -33,7 +33,7 @@ The API will be available at:
 ### 3. Check logs and container status
 
 ```bash
-docker compose logs -f student-api
+docker compose logs -f student-net
 docker compose ps
 ```
 
