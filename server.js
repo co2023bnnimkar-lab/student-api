@@ -21,7 +21,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
-app.get('/', (req, res) => res.json({ success: true, message: 'Student API is running' }));
+app.get('/', (req, res) => res.json({ success: true, message: 'Student Net API is running' }));
 app.use('/api/students', studentRoutes);
 
 app.use((req, res) => res.status(404).json({ success: false, message: 'Route not found' }));
@@ -32,4 +32,4 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 5000;
-connectDB().then(() => app.listen(PORT, () => console.log('API running on port ' + PORT)));
+connectDB().then(() => app.listen(PORT, () => console.log('Student Net API running on port ' + PORT)));
