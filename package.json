@@ -1,7 +1,7 @@
 {
-  "name": "student-api",
+  "name": "student-net",
   "version": "1.0.0",
-  "description": "Student Information Management System - Express + MongoDB Atlas API",
+  "description": "Student Net - Student Information Management System API - Express + MongoDB Atlas",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
